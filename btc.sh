@@ -8,7 +8,10 @@ BUY_PRICE=705
 
 usage() 
 { 
-    echo -e "Usage: $0 [-s] [-b]\n    -s: silent mode, just shows the result of how much you'll earn.\n    -b: get the last btc price." 1>&2; exit 1;
+    echo "Usage: $0 [-s] [-b]"  1>&2; 
+    echo "    -s: silent mode, just shows the result of how much you'll earn."  1>&2; 
+    echo "    -b: get the last btc price." 1>&2; 
+    exit 1;
 }
 
 get_values()
